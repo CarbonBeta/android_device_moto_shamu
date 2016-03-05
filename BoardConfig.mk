@@ -143,4 +143,6 @@ BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS := \
     hardware/cyanogen/cmhw
 
+TARGET_FS_CONFIG_GEN += device/moto/shamu/config.fs
+
 -include vendor/motorola/shamu/BoardConfigVendor.mk
