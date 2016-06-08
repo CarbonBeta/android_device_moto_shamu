@@ -113,6 +113,7 @@ DEVICE_PACKAGE_OVERLAYS := \
 
 PRODUCT_PACKAGES := \
     libwpa_client \
+    wificond \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
