@@ -435,6 +435,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.qualcomm.perf.cores_online=2
 
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-impl \
     power.shamu \
     thermal.shamu
 
