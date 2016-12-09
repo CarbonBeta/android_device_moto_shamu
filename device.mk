@@ -118,6 +118,10 @@ PRODUCT_PACKAGES := \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# WiFi HAL
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service
+
 PRODUCT_PACKAGES += atmel.fw.apq8084
 
 # OEM Package for RIL
