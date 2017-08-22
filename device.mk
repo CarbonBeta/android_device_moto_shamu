@@ -217,7 +217,8 @@ PRODUCT_PACKAGES += \
     libion
 
 PRODUCT_PACKAGES += \
-    lights.shamu
+    lights.shamu \
+    android.hardware.light@2.0-impl
 
 # for launcher layout
 #PRODUCT_PACKAGES += \
