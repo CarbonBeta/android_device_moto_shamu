@@ -123,6 +123,10 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl
+
 # WiFi HAL
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
