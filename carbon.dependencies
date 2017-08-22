@@ -1,6 +1,8 @@
 [
   {
-    "repository": "CarbonROM/android_kernel_moto_msm",
-    "target_path": "kernel/moto/shamu"
+    "remote": "gh",
+    "repository": "CarbonBeta/android_kernel_moto_msm",
+    "target_path": "kernel/moto/shamu",
+    "revision": "cr-6.0"
   }
 ]
