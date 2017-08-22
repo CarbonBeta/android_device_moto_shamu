@@ -226,6 +226,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libion
 
+# Keymaster HAL
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl
+
 PRODUCT_PACKAGES += \
     lights.shamu \
     android.hardware.light@2.0-impl
