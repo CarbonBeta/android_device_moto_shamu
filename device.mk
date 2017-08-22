@@ -118,6 +118,10 @@ PRODUCT_PACKAGES := \
     wpa_supplicant \
     wpa_supplicant.conf
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.0-impl
+
 # WiFi HAL
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
